@@ -1,0 +1,10 @@
+version: '3.7'
+services:
+  mongotls:
+    build: docker-file/.
+    hostname: mongo
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: pi
+      MONGO_INITDB_ROOT_PASSWORD: pi
+    ports:
+      - 27017:27017

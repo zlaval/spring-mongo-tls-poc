@@ -1,0 +1,10 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://pi:pi@localhost:27017/admin?tls=true
+logging:
+  level:
+    org: info
+    com: info
+server:
+  port: 8000
